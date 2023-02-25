@@ -12,28 +12,33 @@
       max-width: 350px;
       margin-bottom: 2rem;
     }
-    .cabecalho .imagem {
-      width: 40%;
+    p {
+      font-size: 2rem;
+      color: #6bd1ff;
     }
   }
-  p {
-    font-size: 2rem;
-    color: #6bd1ff;
+  .imagem {
+    width: 40%;
   }
+
   @media (max-width: 576px) {
-    .cabecalho .logo {
-      padding: 2rem;
-    }
-    .cabecalho p {
-      font-size: 1.5rem;
+    .cabecalho {
+      .logo {
+        padding: 2rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
     }
   }
   @media (max-width: 768px) {
-    .cabecalho .logo {
-      width: 90%;
-    }
-    .cabecalho .imagem {
-      display: none;
+    .cabecalho {
+      .logo {
+        width: 90%;
+      }
+      .imagem {
+        display: none;
+      }
     }
   }
 }
