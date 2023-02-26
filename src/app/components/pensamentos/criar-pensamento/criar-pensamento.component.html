@@ -106,8 +106,20 @@
       </div>
     </div>
     <div class="acoes">
-      <button class="botao" (click)="criarPensamento()">Salvar</button>
-      <button class="botao" (click)="cancelarPensamento()">Cancelar</button>
+      <button
+        class="botao"
+        (click)="criarPensamento()"
+        routerLink="/listarPensamento"
+      >
+        Salvar
+      </button>
+      <button
+        class="botao"
+        (click)="cancelarPensamento()"
+        routerLink="/listarPensamento"
+      >
+        Cancelar
+      </button>
     </div>
   </form>
 </section>
