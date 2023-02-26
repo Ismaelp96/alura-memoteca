@@ -10,12 +10,6 @@
     word-wrap: break-word;
   }
 
-  .pensamento-g {
-    width: 556px;
-  }
-  .pensamento-p {
-    width: 262px;
-  }
   .acoes {
     display: flex;
     justify-content: flex-end;
@@ -51,4 +45,11 @@
 }
 .modelo3 {
   box-shadow: 8px 8px 0px #84eec1;
+}
+
+.pensamento-g {
+  width: 556px;
+}
+.pensamento-p {
+  width: 262px;
 }
