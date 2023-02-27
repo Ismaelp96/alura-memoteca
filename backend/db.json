@@ -2,21 +2,21 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que você está aqui!",
-      "autoria": "Jamas",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 2,
-      "conteudo": "Estudando angular!",
-      "autoria": "Jamas aprendendo",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "Angular é o melhor",
+      "conteudo": "Que bom que você está aqui, vamos compartilhar pensamentos?",
       "autoria": "Jamas",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Eu estou gostando de aprender Angular demais!",
+      "autoria": "Dev Jamas",
+      "modelo": "modelo2",
+      "id": 4
+    },
+    {
+      "conteudo": "Eu estou gostando de aprender Angular :)",
+      "autoria": "Dev Jamas",
+      "modelo": "modelo1",
+      "id": 5
     }
   ]
 }
