@@ -18,7 +18,7 @@
         formulario.get('conteudo')?.touched
       "
     >
-      <span>Pensamento é obrigatório!</span>
+      Pensamento é obrigatório!
     </div>
     <label for="autoria">Autoria ou Fonte</label>
     <input
@@ -32,13 +32,13 @@
       class="mensagem__erro"
       *ngIf="formulario.get('autoria')?.errors?.['required']  && formulario.get('autoria')?.touched"
     >
-      <span>Autoria é obrigatório!</span>
+      Autoria é obrigatório!
     </div>
     <div
       class="mensagem__erro"
       *ngIf="formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched"
     >
-      <span>Autoria, precisa ter no mínimo 3 caracteres!</span>
+      Autoria, precisa ter no mínimo 3 caracteres!
     </div>
     <label for="modelo">Selecione o modelo do card:</label>
     <div class="container-radio">
@@ -122,7 +122,13 @@
       </div>
     </div>
     <div class="acoes">
-      <button class="botao" (click)="criarPensamento()">Salvar</button>
+      <button
+        [disabled]="!formulario.valid"
+        (click)="criarPensamento()"
+        [ngClass]="habilitarBotao()"
+      >
+        Salvar
+      </button>
       <button class="botao" (click)="cancelarPensamento()">Cancelar</button>
     </div>
   </form>

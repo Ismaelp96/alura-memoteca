@@ -7,10 +7,10 @@
       "modelo": "modelo3"
     },
     {
+      "id": 4,
       "conteudo": "Eu estou gostando de aprender Angular demais!",
       "autoria": "Dev Jamas",
-      "modelo": "modelo2",
-      "id": 4
+      "modelo": "modelo2"
     },
     {
       "conteudo": "Eu estou gostando de aprender Angular :)",
