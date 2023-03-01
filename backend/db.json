@@ -4,42 +4,49 @@
       "id": 1,
       "conteudo": "Que bom que você está aqui, vamos compartilhar pensamentos?",
       "autoria": "Jamas",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 4,
       "conteudo": "Eu estou gostando de aprender Angular demais!",
       "autoria": "Dev Jamas",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "Eu estou gostando de aprender Angular :)",
       "autoria": "Dev Jamas",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "Que a força esteja com você!",
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "Faça o que eu diga mas não faça o que eu faço!",
       "autoria": "Pai",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "Caneta azul, azul caneta",
       "autoria": "Autoria Desconhecida",
       "modelo": "modelo1",
+      "favorito": false,
       "id": 8
     },
     {
       "conteudo": "Eu só quero me divertir!",
       "autoria": "Tinder",
       "modelo": "modelo2",
+      "favorito": false,
       "id": 9
     }
   ]
