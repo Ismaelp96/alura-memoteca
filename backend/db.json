@@ -23,6 +23,24 @@
       "autoria": "Mestre Yoda",
       "modelo": "modelo1",
       "id": 6
+    },
+    {
+      "conteudo": "Faça o que eu diga mas não faça o que eu faço!",
+      "autoria": "Pai",
+      "modelo": "modelo3",
+      "id": 7
+    },
+    {
+      "conteudo": "Caneta azul, azul caneta",
+      "autoria": "Autoria Desconhecida",
+      "modelo": "modelo1",
+      "id": 8
+    },
+    {
+      "conteudo": "Eu só quero me divertir!",
+      "autoria": "Tinder",
+      "modelo": "modelo2",
+      "id": 9
     }
   ]
 }
