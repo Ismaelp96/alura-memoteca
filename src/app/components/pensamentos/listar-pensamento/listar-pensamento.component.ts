@@ -13,6 +13,7 @@ export class ListarPensamentoComponent {
   haMaisPensamentos: boolean = true;
   filtro: string = '';
   favoritos: boolean = false;
+  listaFavoritos: Pensamento[] = [];
 
   constructor(private service: PensamentoService) {}
 
@@ -52,6 +53,7 @@ export class ListarPensamentoComponent {
       .listar(this.paginaAtual, this.filtro, this.favoritos)
       .subscribe((buscarFavoritos) => {
         this.listaPensamentos = buscarFavoritos;
+        this.listaFavoritos = buscarFavoritos;
       });
   }
 }
